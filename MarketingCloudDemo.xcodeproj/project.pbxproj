@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18BCA75D2163F1C200461AEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BCA75C2163F1C200461AEB /* AppDelegate.swift */; };
-		18BCA75F2163F1C200461AEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BCA75E2163F1C200461AEB /* ViewController.swift */; };
-		18BCA7622163F1C200461AEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BCA7602163F1C200461AEB /* Main.storyboard */; };
-		18BCA7642163F1C200461AEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18BCA7632163F1C200461AEB /* Assets.xcassets */; };
-		18BCA7672163F1C200461AEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BCA7652163F1C200461AEB /* LaunchScreen.storyboard */; };
+		1865F7CA2163FA3900EFE041 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1865F7C22163FA3900EFE041 /* AppDelegate.swift */; };
+		1865F7CB2163FA3900EFE041 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1865F7C32163FA3900EFE041 /* Assets.xcassets */; };
+		1865F7CC2163FA3900EFE041 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1865F7C42163FA3900EFE041 /* LaunchScreen.storyboard */; };
+		1865F7CD2163FA3900EFE041 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1865F7C62163FA3900EFE041 /* Main.storyboard */; };
+		1865F7CE2163FA3900EFE041 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1865F7C82163FA3900EFE041 /* Info.plist */; };
+		1865F7CF2163FA3900EFE041 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1865F7C92163FA3900EFE041 /* ViewController.swift */; };
+		1865F7D42163FA6B00EFE041 /* MarketingCloudSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1865F7D12163FA6A00EFE041 /* MarketingCloudSDK.bundle */; };
+		1865F7D52163FA6B00EFE041 /* MarketingCloudSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1865F7D22163FA6A00EFE041 /* MarketingCloudSDK.framework */; };
+		1865F7D62163FA6B00EFE041 /* MarketingCloudSDKConfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 1865F7D32163FA6A00EFE041 /* MarketingCloudSDKConfiguration.json */; };
 		18BCA7722163F1C200461AEB /* MarketingCloudDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BCA7712163F1C200461AEB /* MarketingCloudDemoTests.swift */; };
 		18BCA77D2163F1C200461AEB /* MarketingCloudDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BCA77C2163F1C200461AEB /* MarketingCloudDemoUITests.swift */; };
-		18BCA78C2163F52A00461AEB /* MarketingCloudSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BCA78B2163F52A00461AEB /* MarketingCloudSDK.framework */; };
-		18BCA78E2163F55700461AEB /* MarketingCloudSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18BCA78D2163F55700461AEB /* MarketingCloudSDK.bundle */; };
-		18BCA7902163F5A100461AEB /* MarketingCloudSDKConfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 18BCA78F2163F5A100461AEB /* MarketingCloudSDKConfiguration.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,13 +38,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1865F7C22163FA3900EFE041 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1865F7C32163FA3900EFE041 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1865F7C52163FA3900EFE041 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1865F7C72163FA3900EFE041 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1865F7C82163FA3900EFE041 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1865F7C92163FA3900EFE041 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1865F7D12163FA6A00EFE041 /* MarketingCloudSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MarketingCloudSDK.bundle; sourceTree = "<group>"; };
+		1865F7D22163FA6A00EFE041 /* MarketingCloudSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MarketingCloudSDK.framework; sourceTree = "<group>"; };
+		1865F7D32163FA6A00EFE041 /* MarketingCloudSDKConfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MarketingCloudSDKConfiguration.json; sourceTree = "<group>"; };
 		18BCA7592163F1C200461AEB /* MarketingCloudDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarketingCloudDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		18BCA75C2163F1C200461AEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18BCA75E2163F1C200461AEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		18BCA7612163F1C200461AEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		18BCA7632163F1C200461AEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		18BCA7662163F1C200461AEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		18BCA7682163F1C200461AEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18BCA76D2163F1C200461AEB /* MarketingCloudDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarketingCloudDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18BCA7712163F1C200461AEB /* MarketingCloudDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketingCloudDemoTests.swift; sourceTree = "<group>"; };
 		18BCA7732163F1C200461AEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,8 +55,6 @@
 		18BCA77C2163F1C200461AEB /* MarketingCloudDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketingCloudDemoUITests.swift; sourceTree = "<group>"; };
 		18BCA77E2163F1C200461AEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18BCA78B2163F52A00461AEB /* MarketingCloudSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MarketingCloudSDK.framework; path = MarketingCloudSDK/MarketingCloudSDK.framework; sourceTree = "<group>"; };
-		18BCA78D2163F55700461AEB /* MarketingCloudSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MarketingCloudSDK.bundle; path = MarketingCloudSDK/MarketingCloudSDK.bundle; sourceTree = "<group>"; };
-		18BCA78F2163F5A100461AEB /* MarketingCloudSDKConfiguration.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = MarketingCloudSDKConfiguration.json; path = MarketingCloudSDK/MarketingCloudSDKConfiguration.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18BCA78C2163F52A00461AEB /* MarketingCloudSDK.framework in Frameworks */,
+				1865F7D52163FA6B00EFE041 /* MarketingCloudSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,12 +83,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1865F7C12163FA3900EFE041 /* MarketingCloudDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1865F7C22163FA3900EFE041 /* AppDelegate.swift */,
+				1865F7C32163FA3900EFE041 /* Assets.xcassets */,
+				1865F7C42163FA3900EFE041 /* LaunchScreen.storyboard */,
+				1865F7C62163FA3900EFE041 /* Main.storyboard */,
+				1865F7C82163FA3900EFE041 /* Info.plist */,
+				1865F7C92163FA3900EFE041 /* ViewController.swift */,
+			);
+			path = MarketingCloudDemo;
+			sourceTree = "<group>";
+		};
+		1865F7D02163FA6A00EFE041 /* MarketingCloudSDK */ = {
+			isa = PBXGroup;
+			children = (
+				1865F7D12163FA6A00EFE041 /* MarketingCloudSDK.bundle */,
+				1865F7D22163FA6A00EFE041 /* MarketingCloudSDK.framework */,
+				1865F7D32163FA6A00EFE041 /* MarketingCloudSDKConfiguration.json */,
+			);
+			path = MarketingCloudSDK;
+			sourceTree = "<group>";
+		};
 		18BCA7502163F1C200461AEB = {
 			isa = PBXGroup;
 			children = (
-				18BCA78F2163F5A100461AEB /* MarketingCloudSDKConfiguration.json */,
-				18BCA78D2163F55700461AEB /* MarketingCloudSDK.bundle */,
-				18BCA75B2163F1C200461AEB /* MarketingCloudDemo */,
+				1865F7D02163FA6A00EFE041 /* MarketingCloudSDK */,
+				1865F7C12163FA3900EFE041 /* MarketingCloudDemo */,
 				18BCA7702163F1C200461AEB /* MarketingCloudDemoTests */,
 				18BCA77B2163F1C200461AEB /* MarketingCloudDemoUITests */,
 				18BCA75A2163F1C200461AEB /* Products */,
@@ -102,19 +126,6 @@
 				18BCA7782163F1C200461AEB /* MarketingCloudDemoUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		18BCA75B2163F1C200461AEB /* MarketingCloudDemo */ = {
-			isa = PBXGroup;
-			children = (
-				18BCA75C2163F1C200461AEB /* AppDelegate.swift */,
-				18BCA75E2163F1C200461AEB /* ViewController.swift */,
-				18BCA7602163F1C200461AEB /* Main.storyboard */,
-				18BCA7632163F1C200461AEB /* Assets.xcassets */,
-				18BCA7652163F1C200461AEB /* LaunchScreen.storyboard */,
-				18BCA7682163F1C200461AEB /* Info.plist */,
-			);
-			path = MarketingCloudDemo;
 			sourceTree = "<group>";
 		};
 		18BCA7702163F1C200461AEB /* MarketingCloudDemoTests */ = {
@@ -250,11 +261,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18BCA7902163F5A100461AEB /* MarketingCloudSDKConfiguration.json in Resources */,
-				18BCA78E2163F55700461AEB /* MarketingCloudSDK.bundle in Resources */,
-				18BCA7672163F1C200461AEB /* LaunchScreen.storyboard in Resources */,
-				18BCA7642163F1C200461AEB /* Assets.xcassets in Resources */,
-				18BCA7622163F1C200461AEB /* Main.storyboard in Resources */,
+				1865F7D62163FA6B00EFE041 /* MarketingCloudSDKConfiguration.json in Resources */,
+				1865F7CB2163FA3900EFE041 /* Assets.xcassets in Resources */,
+				1865F7CD2163FA3900EFE041 /* Main.storyboard in Resources */,
+				1865F7D42163FA6B00EFE041 /* MarketingCloudSDK.bundle in Resources */,
+				1865F7CC2163FA3900EFE041 /* LaunchScreen.storyboard in Resources */,
+				1865F7CE2163FA3900EFE041 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,8 +291,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18BCA75F2163F1C200461AEB /* ViewController.swift in Sources */,
-				18BCA75D2163F1C200461AEB /* AppDelegate.swift in Sources */,
+				1865F7CA2163FA3900EFE041 /* AppDelegate.swift in Sources */,
+				1865F7CF2163FA3900EFE041 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,20 +328,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		18BCA7602163F1C200461AEB /* Main.storyboard */ = {
+		1865F7C42163FA3900EFE041 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				18BCA7612163F1C200461AEB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		18BCA7652163F1C200461AEB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18BCA7662163F1C200461AEB /* Base */,
+				1865F7C52163FA3900EFE041 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1865F7C62163FA3900EFE041 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1865F7C72163FA3900EFE041 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
