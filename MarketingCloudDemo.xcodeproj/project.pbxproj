@@ -14,6 +14,9 @@
 		18BCA7672163F1C200461AEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BCA7652163F1C200461AEB /* LaunchScreen.storyboard */; };
 		18BCA7722163F1C200461AEB /* MarketingCloudDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BCA7712163F1C200461AEB /* MarketingCloudDemoTests.swift */; };
 		18BCA77D2163F1C200461AEB /* MarketingCloudDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BCA77C2163F1C200461AEB /* MarketingCloudDemoUITests.swift */; };
+		18BCA78C2163F52A00461AEB /* MarketingCloudSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BCA78B2163F52A00461AEB /* MarketingCloudSDK.framework */; };
+		18BCA78E2163F55700461AEB /* MarketingCloudSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18BCA78D2163F55700461AEB /* MarketingCloudSDK.bundle */; };
+		18BCA7902163F5A100461AEB /* MarketingCloudSDKConfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 18BCA78F2163F5A100461AEB /* MarketingCloudSDKConfiguration.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		18BCA7782163F1C200461AEB /* MarketingCloudDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarketingCloudDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18BCA77C2163F1C200461AEB /* MarketingCloudDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketingCloudDemoUITests.swift; sourceTree = "<group>"; };
 		18BCA77E2163F1C200461AEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BCA78B2163F52A00461AEB /* MarketingCloudSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MarketingCloudSDK.framework; path = MarketingCloudSDK/MarketingCloudSDK.framework; sourceTree = "<group>"; };
+		18BCA78D2163F55700461AEB /* MarketingCloudSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MarketingCloudSDK.bundle; path = MarketingCloudSDK/MarketingCloudSDK.bundle; sourceTree = "<group>"; };
+		18BCA78F2163F5A100461AEB /* MarketingCloudSDKConfiguration.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = MarketingCloudSDKConfiguration.json; path = MarketingCloudSDK/MarketingCloudSDKConfiguration.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18BCA78C2163F52A00461AEB /* MarketingCloudSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +84,13 @@
 		18BCA7502163F1C200461AEB = {
 			isa = PBXGroup;
 			children = (
+				18BCA78F2163F5A100461AEB /* MarketingCloudSDKConfiguration.json */,
+				18BCA78D2163F55700461AEB /* MarketingCloudSDK.bundle */,
 				18BCA75B2163F1C200461AEB /* MarketingCloudDemo */,
 				18BCA7702163F1C200461AEB /* MarketingCloudDemoTests */,
 				18BCA77B2163F1C200461AEB /* MarketingCloudDemoUITests */,
 				18BCA75A2163F1C200461AEB /* Products */,
+				18BCA78A2163F52A00461AEB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +133,14 @@
 				18BCA77E2163F1C200461AEB /* Info.plist */,
 			);
 			path = MarketingCloudDemoUITests;
+			sourceTree = "<group>";
+		};
+		18BCA78A2163F52A00461AEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18BCA78B2163F52A00461AEB /* MarketingCloudSDK.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +250,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18BCA7902163F5A100461AEB /* MarketingCloudSDKConfiguration.json in Resources */,
+				18BCA78E2163F55700461AEB /* MarketingCloudSDK.bundle in Resources */,
 				18BCA7672163F1C200461AEB /* LaunchScreen.storyboard in Resources */,
 				18BCA7642163F1C200461AEB /* Assets.xcassets in Resources */,
 				18BCA7622163F1C200461AEB /* Main.storyboard in Resources */,
@@ -427,8 +447,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MarketingCloudSDK",
+				);
 				INFOPLIST_FILE = MarketingCloudDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bcbmp.MarketingCloudDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -441,8 +466,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MarketingCloudSDK",
+				);
 				INFOPLIST_FILE = MarketingCloudDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bcbmp.MarketingCloudDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
